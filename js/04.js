@@ -1,11 +1,15 @@
 // String o cadena de texto
 
-// si quieres incluir en tu string unas comillas dobles tienes que ponerlas asi \" o tambien puedes encerrrarlo entre comillas sencillas 
-const producto = "Monitor de 20\""; 
-// const producto2 = String('Monitor de 20 pulgadas'); //forma menos comun de crear un string 
-// const producto3 = new String('Monitor de 50 pulgadas'); // si creas un string de esta forma terminara siendo un objeto 
+const tweet = 'Aprendiendo Javascript con el curso de desarrollo web completo'; 
+const producto2 = 'Monitor HD'; 
 
-// con typeof puedes saber que tipo de datos tiene una variable
-console.log(producto);
-// console.log(producto2);
-// console.log(producto3);
+console.log(tweet.length); // .length muestra cuantos caracteres tiene el texto es de los pocos metodos que no lleva parentesis esto mas que nada porque no es un metodo sino mas bien una propiedad
+console.log(producto2);
+
+// IndexOf busca un texto especifico y te muestra su posicion 
+console.log(tweet.indexOf("Javascript"));
+console.log(producto2.indexOf("Tablet")); //si muestra un numero negativo en la consola es la palabra no se encuentra en el string
+
+// Includes retorna true o false
+console.log(tweet.includes("Javascript"));
+console.log(producto2.includes("Tablet"));
