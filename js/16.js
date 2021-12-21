@@ -18,3 +18,6 @@ sumar2();
 (function() {
     console.log('Esto es una funcion');
 })();
+
+// Hoisting Java se ejecuta en 2 etapas en la primera registra todas las funciones y en la segunda ejecuta el programa
+// Por eso en la declaracion de funcion no importa el orden y en expresion de funcion si 
